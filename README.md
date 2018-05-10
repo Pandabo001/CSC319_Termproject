@@ -1,1 +1,5 @@
 # CSC319_Termproject
+
+57130500232 Pattarakarn Wattanapponchai
+57130500252 Tharnadorn Sornpetch
+59130500250 Thammaseth Dangboonruang
