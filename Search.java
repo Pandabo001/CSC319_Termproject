@@ -1,12 +1,18 @@
 import java.io.*;
 import java.util.Scanner;
+import javax.swing.*;
+import java.awt.event.*;
 
-public class Search{
+public class Search {
 
-  private int operator = 0;
+  JFrame frame;
+  JTextField searchText, showText;
+  JButton searchWord, countWord;
+  private static int operator = 0;
   int count;
   
-  public void parseFile(String fileName, String searchStr) throws FileNotFoundException{
+  
+  public void searchFile(String fileName, String searchStr) throws FileNotFoundException{
     Scanner scan = new Scanner(new File(fileName));
     while(scan.hasNext()){
       String line = scan.nextLine().toLowerCase().toString();
