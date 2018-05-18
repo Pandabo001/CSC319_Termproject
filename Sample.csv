@@ -1,8 +1,8 @@
-1,Foampony,สรุปต้องไปอบรมทำบขขใหม่หึหึ,No location,Twitter for iPhone,22/6/2016 10:00
-2,LazaomAoM,เด็กพวกนี้ตลกอ่ะ5555555555555555555,Bangkok  Thailand,Twitter for iPhone,22/6/2016 10:00
-3,VatcharaPH,บางทีกุก็ไม่ใช่Saleและไม่ใช่ลูกน้องคุณจะมาใช้ให้กุไปติดต่อลูกค้ามึงไม่ได้กุด่านะระวัง!,No location,Twitter for iPhone,22/6/2016 10:00
+1,Foampony,"df['word_combines'] = df['word_combines'].apply(lambda df: re.sub(""[\W\d]"" "" "" df.lower().strip()).split())",No location,Twitter for iPhone,22/6/2016 10:00
+2,LazaomAoM,corpus_vocab = set([word for words in df.word_combines for word in words]),Bangkok  Thailand,Twitter for iPhone,22/6/2016 10:00
+3,VatcharaPH,corpus_vocab_dfs = dict([(wordmath.log(corpus_size / newdf(word))) for word in corpus_vocab]),No location,Twitter for iPhone,22/6/2016 10:00
 4,junenuad,Don't know don't care,?MICRO KMITL,Twitter for iPhone,22/6/2016 10:00
-5,chnpy_,เมื่อคืนแม่งปวดหัวสัสๆ,No location,Twitter for iPhone,22/6/2016 10:00
+5,chnpy_,df['tfidf'] = df.log_frequencies.apply(tfidf),No location,Twitter for iPhone,22/6/2016 10:00
 6,bblueice,ม้าคเป็นเอ็มซีหรอ....,somewhere in the world :D,Twitter Web Client,22/6/2016 10:00
 7,GeeKulsuwan,ระบายน้ำได้ช้าครับhttps://t.co/cxOi3JnL2H,No location,Twitter for iPhone,22/6/2016 10:00
 8,PkPakpum,ตรงเวลามากhttps://t.co/953jhgznwI,กรุงเทพมหานคร  ประเทศไท,Twitter for Android,22/6/2016 10:00
