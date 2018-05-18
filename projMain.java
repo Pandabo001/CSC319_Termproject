@@ -36,7 +36,7 @@ public class projMain {
         else if (index == 5)
           tw.setTime(data);
         else
-          System.out.println("invalid data::" + data);
+          System.out.println("invalid data : " + data);
         index++;
       }
       index = 0;
