@@ -1,37 +1,23 @@
-import java.io.*;
-import java.util.Scanner;
-import javax.swing.*;
-import java.awt.event.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-public class Search {
+public class Search{
 
-  JFrame frame;
-  JTextField searchText, showText;
-  JButton searchWord, countWord;
-  private static int operator = 0;
-  int count;
+
+  public static boolean search(String sentence, String pattern){
   
-  
-  public void searchFile(String fileName, String searchStr) throws FileNotFoundException{
-    Scanner scan = new Scanner(new File(fileName));
-    while(scan.hasNext()){
-      String line = scan.nextLine().toLowerCase().toString();
-      if(line.contains(searchStr)){
-        System.out.println(line);
-        
+    Pattern regex = Pattern.compile(pattern);
+    
+    Matcher m = regex.matcher(sentence);
+    //System.out.println(m.group(0));
+    int count = 0;
+    while(m.find()) {
+         count++;
       }
-    }
+    if(count != 0) return true;
+    return false;
   }
-  
-  public int countWord(String fileName, String word) throws FileNotFoundException{
-    count = 0;
-    Scanner scan = new Scanner(new File(fileName));
-    while (scan.hasNext()) {
-      String nextToken = scan.next().toLowerCase().toString();;
-      if (nextToken.contains(word))
-        count++;
-    }
-    return count;
-  }
+
+
 
 }
