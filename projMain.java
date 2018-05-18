@@ -52,8 +52,8 @@ public class projMain {
     List<TweetObject> result = new ArrayList<>();
     
     Scanner sc = new Scanner(System.in);
-    
-    String word = sc.nextLine();
+    System.out.print("Please enter word to find: ");
+    String word = sc.nextLine().toLowerCase();
     for(TweetObject tweet : tweetList){
       
       

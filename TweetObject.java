@@ -57,7 +57,8 @@ public class TweetObject {
   
   @Override
   public String toString(){
-    return "\nName " + getName() 
-      + " Tweet = "+getTweet()+ " Location = " + getLocation() + " Device = "+getDevice() + " Time = " + getTime();
+    return 
+      "\nName " + getName() + " Tweet : "+getTweet()+ " Location : " + getLocation() 
+      + " Device : "+getDevice() + " Time : " + getTime();
   }
 }
