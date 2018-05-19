@@ -46,7 +46,7 @@ public class projMain {
     //close reader
     reader.close();
     
-    //System.out.println(tweetList);
+    System.out.println(tweetList);
     
     
     List<TweetObject> result = new ArrayList<>();
@@ -55,7 +55,6 @@ public class projMain {
     System.out.print("Please enter word to find: ");
     String word = sc.nextLine().toLowerCase();
     for(TweetObject tweet : tweetList){
-      
       
       String sentence = tweet.getTweet().toLowerCase();
       boolean foundWord = Search.search(sentence, word);
