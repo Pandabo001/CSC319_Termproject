@@ -30,8 +30,8 @@ public class projMain {
      */ 
     
     JFrame frame = createFrame();
-    TableModel tableModel = createTableModel();
-    JTable tweetData = new JTable(tableModel);
+    TableModel table = createTableModel();
+    JTable tweetData = new JTable(table);
     
     JTextField filterTweet = TweetFilter.createRowFilter(tweetData);
     JPanel panel = new JPanel();
