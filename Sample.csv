@@ -1,19 +1,43 @@
-1,Foampony,"df['word_combines'] = df['word_combines'].apply(lambda df: re.sub(""[\W\d]"" "" "" df.lower().strip()).split())",No location,Twitter for iPhone,22/6/2016 10:00
-2,LazaomAoM,corpus_vocab = set([word for words in df.word_combines for word in words]),Bangkok  Thailand,Twitter for iPhone,22/6/2016 10:00
-3,VatcharaPH,corpus_vocab_dfs = dict([(wordmath.log(corpus_size / newdf(word))) for word in corpus_vocab]),No location,Twitter for iPhone,22/6/2016 10:00
+1,PalmerReport,Meghan Markle has been named the Duchess of Sussex. As opposed to Donald Trump who has been named the Dickhead of Suckass.,No location,Twitter for iPhone,22/6/2016 10:00
+2,CNNPolitics,Rex Tillerson just majorly trolled Donald Trump | Analysis by CNN's Chris Cillizza https://cnn.it/2L981j3 ,No location,Twitter for iPhone,22/6/2016 10:00
+3,TimRunsHisMouth,Just a reminder that Donald Trump has the best fascinators. #RoyalWedding #RoyalWedding2018,No location,Twitter for iPhone,22/6/2016 10:00
 4,junenuad,Don't know don't care,?MICRO KMITL,Twitter for iPhone,22/6/2016 10:00
-5,chnpy_,df['tfidf'] = df.log_frequencies.apply(tfidf),No location,Twitter for iPhone,22/6/2016 10:00
-6,bblueice,ม้าคเป็นเอ็มซีหรอ....,somewhere in the world :D,Twitter Web Client,22/6/2016 10:00
-7,GeeKulsuwan,ระบายน้ำได้ช้าครับhttps://t.co/cxOi3JnL2H,No location,Twitter for iPhone,22/6/2016 10:00
-8,PkPakpum,ตรงเวลามากhttps://t.co/953jhgznwI,กรุงเทพมหานคร  ประเทศไท,Twitter for Android,22/6/2016 10:00
-9,Meriime,ไม่ได้มานั่งร้องไห้ในห้องน้ำนานแล้ววันนี้เป็นอีกวันที่ได้มานั่งร้องไห้ว่ะไม่ไหวแล้วนะคือมันdownมากเลยเราเบื่อและเราเหนื่อยที่จะทน,Bangkok,Twitter for Android,22/6/2016 10:00
-10,airytylrtr,กุส่งตอน9.08จะได้ลำดับเท่าไหร่เนี่ยยย,No location,Twitter for Android,22/6/2016 10:00
-11,LazaomAoM,อารมคนกลัวแม่งก้อกลัวจริงนะแต่อีคนชอบแม่งก้อชอบชหอ่ะกูด้วย55555555555,Bangkok  Thailand,Twitter for iPhone,22/6/2016 10:00
-12,yawowttsoheht,จารย์พูดเร็วไปไวเกินไปจดไม่ทัน????,Bangkok [DM],Twitter for iPhone,22/6/2016 10:00
-13,cryforthemoon21,ได้ดูแล้วพรุ่งนี้มาตามนัดด้วยนาจา,Bangkok  Thailand,Twitter Web Client,22/6/2016 10:00
-14,tlejirapong,ขนาดบอกไม่เคยเจอพอเจอยังไม่ทัก555555,อ.เมืองราชบุรี  จ.ราชบุรี,Twitter for iPhone,22/6/2016 10:00
-15,tippiieee,5555555น้ำท่วมหนักมากแต่ถามว่าสู้มั้ยคะ#สู้ค่ะ#khaosanroad#bangkokhttps://t.co/U5QaJ1wjwv,Thailand,Twitter for iPhone,22/6/2016 10:00
-16,Nathamonjaow,เหมือนหมวกjetsetจะหาย...,ลาดกระบัง  กรุงเทพมหานคร,Twitter for iPhone,22/6/2016 10:00
+5,CNNPolitics,Bill Gates describes his interesting encounters with Donald Trump https://cnn.it/2IuLkbq ,No location,Twitter for iPhone,22/6/2016 10:00
+6,rorybremner,Donald Trump confirms he will not attend the wedding. “I hear Windsor’s a shithole. And they have a big problem with Ebola I believe”,somewhere in the world :D,Twitter Web Client,22/6/2016 10:00
+7,GeeKulsuwan,R1D50: Coursera: How to Win a Data Science Competition: Learn from Top Kagglers: doing week2. #100DaysOfCode,No location,Twitter for iPhone,22/6/2016 10:00
+8,PkPakpum, another 45 mins....,กรุงเทพมหานคร  ประเทศไท,Twitter for Android,22/6/2016 10:00
+9,Meriime, another early day,Bangkok,Twitter for Android,22/6/2016 10:00
+10,airytylrtr, another father's day weekend I don't get to spend with my dad..,No location,Twitter for Android,22/6/2016 10:00
+11,LazaomAoM, being afraid of food is an eating disorder right?,Bangkok  Thailand,Twitter for iPhone,22/6/2016 10:00
+12,yawowttsoheht, being told im beautiful doesnt make my tummy better,Bangkok [DM],Twitter for iPhone,22/6/2016 10:00
+13,cryforthemoon21, besides that great graduation day. I finaly made it I'm a highschool graduate ! Moms word .. Chapter close .. Keep pushing foward.,Bangkok  Thailand,Twitter Web Client,22/6/2016 10:00
+14,tlejirapong, Can't log into my computer at work.  ack!  Got lots to do. IT guru out today. can anyone help me?,อ.เมืองราชบุรี  จ.ราชบุรี,Twitter for iPhone,22/6/2016 10:00
+15,tippiieee, can't make any labels til my computer is fixed..can't fix my computer until I make some money..can't make money unless I sell soap grrrr,Thailand,Twitter for iPhone,22/6/2016 10:00
+16,Nathamonjaow,EU unites against Donald Trump and invokes measures to combat sanctions https://bloom.bg/2IwwMIg ,ลาดกระบัง  กรุงเทพมหานคร,Twitter for iPhone,22/6/2016 10:00
 17,thepaleblood,Freaky Friday,Hunter's dream,Twitter Web Client,22/6/2016 10:00
 18,lolleetop,I'm freaking ready!,Bangkok  Thailand,Twitter for iPhone,22/6/2016 10:00
-19,SWarapoch,เห็นหมอตอนนี้ละนึกภาพตัวเองออกเลย,ig : ssutthipong,Twitter for iPhone,22/6/2016 10:00
+19,jameshaning,If you claim to be #Christian yet support Donald #Trump may god have mercy on your soul.,ig : ssutthipong,Twitter for iPhone,22/6/2016 10:00
+20,CNNStyle,"""Snobbery is the science of analyzing visual and aural data to determine class. And the British have raised this mere science to a high art form. Take hats. Especially the fantastical display headwear at Royal Ascot or a #RoyalWedding. Every nuance of st… https://ift.tt/2GxDRCo ",No location,Twitter for iPhone,22/6/2016 10:00
+21,SeanTAllen,When did we rename statistics to data science? It just sort of happened while I wasn’t paying attention. Serious question when did that happen?,No location,Twitter Web Client,22/6/2016 10:00
+22,Wonder_Filly,"""So you take Data Science? You mean Computing?"" ",No location,Twitter for iPhone,22/6/2016 10:00
+23,Fisher85M,The #BigData Storymap [@evankirstel] #AI #machinelearning #DataScience #CDO #CIO #fintech #tech #Industry40 #Analytics,No location,Twitter for Android,22/6/2016 10:00
+24,Al_devr,Data Science-Unsupervised Machine Learning Using R ? http://bit.ly/2IvwQDS  #MachineLearning #DataScience ,No location,Twitter for iPhone,22/6/2016 10:00
+25,K_Tobby,IBM SPSS Statistics - now at 50% off on #IBMIndiaMarketplace. Gartner’s Magic Quadrant for Data Science Platforms ,No location,Twitter Web Client,22/6/2016 10:00
+26,analyticbridge,Hitchhiker's Guide to Data Science Machine Learning R Python ,No location,Twitter for iPhone,22/6/2016 10:00
+27,aaa,               just practising.....how I feel       ,No location,Twitter for Android,22/6/2016 10:00
+28,danielJ,            Miss my love Jamie,No location,Twitter for iPhone,22/6/2016 10:00
+29,TopSoundFilm,          FUCK YOU!,No location,Twitter Web Client,22/6/2016 10:00
+30,NNicname,        my head feels like a bowling ball,No location,Twitter for iPhone,22/6/2016 10:00
+31,TW_MOOWAAN,        my heart hurts badly...,No location,Twitter for Android,22/6/2016 10:00
+32,ys_lg,       FS keeps crashing when I try to load Bungie plane.,No location,Twitter for iPhone,22/6/2016 10:00
+33,spark665,      My current headset is on its deathbed now!  My dad gave it to me just 3 weeks back!    ,No location,Twitter Web Client,22/6/2016 10:00
+34,HIPDYHAE,     ....    My mood is currently BLAH . Sitting in a parking lot,No location,Twitter for iPhone,22/6/2016 10:00
+35,phurkphrik,     I am happy     ,No location,Twitter for Android,22/6/2016 10:00
+36,thenewspace,    ...that is all.,No location,Twitter for iPhone,22/6/2016 10:00
+37,praifahskk, all day.. no play.,No location,Twitter Web Client,22/6/2016 10:00
+38,kantappk, all dressed up and no bicyclist for Monday nite ride n Henderson KY http://bit.ly/10H4ne,No location,Twitter for iPhone,22/6/2016 10:00
+39,FG1209, all I want is my ma in my arms  that's all I want is you in my arms,No location,Twitter for Android,22/6/2016 10:00
+40,kantappk, all my friends are gone haley n katie @ camp Paris @ moms Landin n Ayonna @ aunts n moms im so bored,No location,Twitter for Android,22/6/2016 10:00
+41,KengEffects, all nighter. yeeeeeeeeeeeessshhhh what a nightmare up coming 2 weeks. cannot wait to graduate!,No location,Twitter for iPhone,22/6/2016 10:00
+42,pclind1, All the small things...,No location,Twitter for iPhone,22/6/2016 10:00
+43,Smilecattt, All those Non-Robsten posts are making me sad. I mean I knew that but to see it from others in words. So sad.,No location,Twitter for iPhone,22/6/2016 10:00

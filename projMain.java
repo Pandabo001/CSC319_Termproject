@@ -66,8 +66,9 @@ public class projMain {
       }
     }
     
+    System.out.println("Tweet found : " + result.size());
     System.out.println(result);
-    System.out.println("Tweet Count: " + result.size());
+    
     
     //System.out.println(searchTweet.search("Heloboy", "Hello"));
   }
